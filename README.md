@@ -1,6 +1,6 @@
 # Social Media APP (REST API)
 
-This is a project to develop a fullstack MERN Social Media App in order for me to learn the development process of fullstack applications. No Typescript will be used in this project.
+This is a project to develop a fullstack MERN Social Media App in order for me to learn the development process of fullstack applications. This API will serve as the backend of the Social Media project.
 
 ## 1. Package Installations and Setup
 
