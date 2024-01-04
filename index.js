@@ -29,7 +29,7 @@ app.use("/api/posts", postsRoute);
 
 // Connect to DB
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI_LOCAL)
   .then(() => {
     console.log("App connected to database! 💃");
     app.listen(PORT, () => {
@@ -39,4 +39,3 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-
